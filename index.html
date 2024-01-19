@@ -1,0 +1,271 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Paysilo.com</title>
+        <style>
+            :root{
+                --btn-color--: #4E4E91;
+                --text--: #1A1A3F;
+                --btn-ex--: #FF4800;
+                --logo-bg--: #E8EBF3;
+                --ad-bg--: #767676;
+            }
+            .nav-link{
+                color: var(--btn-color--);
+            }
+            .brand{
+                color: var(--btn-color--);
+            }
+            #button{
+                background-color: var(--btn-ex--);
+            }
+            #heroinput{
+                border-end-end-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+            }
+            #herobtn{
+                background-color: var(--btn-color--);
+                color: white;
+                border-end-end-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+            }
+            #hero{
+                height: calc(100vh - 100px);
+                color: var(--text--);
+            }
+            .heading{
+                font-size: 50px;
+            }
+            #logos{
+                background-color: var(--ad-bg--);
+            }
+            #h2p{
+                color: var(--text--);
+            }
+            #badge{
+                background-color: var(--text--);
+                border-end-end-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+            }
+            #card{
+                box-shadow: 5px 2px 10px black;
+                border-end-end-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+            }
+            #text{
+                color: var(--text--);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navbar  -->
+        <div class="container-fluid">
+            <nav>
+                <a href="#" class=" fs-3 navbar-brand"><span class="text-danger">P</span><span class="brand">aysilo</span></a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="fs-6 nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn fs-6 nav-link text-light mx-5" id="button"><i class="bi bi-bag-fill"></i> Buy Now</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- hero section  -->
+        <div class="container">
+            <div class="row mt-3" id="hero">
+                <div class="col">
+                    <h1 class="heading m-5">Powering 30,000+ Businesses like you in Australia</h1>
+                    <p class="m-5">Get more than just a payment gateway. No setup fee. No maintenance fee. Use it the way you want.</p>
+                    <div class="input-group px-5">
+                        <input type="email" class="form-control p-2 m-1" placeholder="Email Address Here" id="heroinput">
+                        <button class="btn m-1" id="herobtn">Sign up Now</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="header-removebg-preview.png" alt="Background image" width="100%">
+                </div>
+            </div>
+        </div>
+        <!-- logos section  -->
+        <div class="container-fluid" id="logos">
+            <div class="row mx-5 p-2 justify-content-center">
+                <div class="col-2">
+                    <img src="cubico-logo.png" alt="" width="140px" height="100px">
+                </div>
+                <div class="col-2">
+                    <img src="coffee.png" alt="" width="100px" height="100px">
+                </div>
+                <div class="col-2">
+                    <img src="Hexagon_logo.svg.png" alt="" width="160px" height="100px">
+                </div>
+                <div class="col-2">
+                    <img src="lolg k.png" alt="" width="100px" height="100px">
+                </div>
+                <div class="col-2">
+                    <img src="mates.png" alt="" width="120px" height="100px">
+                </div>
+            </div>
+        </div>
+        <!-- gateway work  -->
+        <div class="container mb-5">
+            <div class="container text-center p-5" id="h2p">
+                <h1>How Paysilo Payment Gateway Works</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequatur ratione cupiditate corporis ullam fuga voluptas voluptates delectus eaque dicta necessitatibus rerum quasi, ut sunt voluptatibus fugiat modi. Officiis, voluptates.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col position-relative m-2 p-4" id="card">
+                        <span class="badge position-absolute top-0 p-3 translate-middle" id="badge"><i class="fa-solid fa-link"></i></span>
+                        <h4>1. Create Payment Link</h4>
+                    </div>
+                    <div class="col position-relative m-2 p-4" id="card">
+                        <span class="badge position-absolute top-0 p-3 translate-middle" id="badge"><i class="fa-solid fa-share"></i></span>
+                        <h4>2. Share with Customers</h4>
+                    </div>
+                    <div class="col position-relative m-2 p-4" id="card">
+                        <span class="badge position-absolute top-0 p-3 translate-middle" id="badge"><i class="fa-solid fa-dollar-sign"></i></span>
+                        <h4>3. Get Paid</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sign up img  -->
+        <div class="card">
+            <img src="Untitled design.png" alt="" class="card-img">
+            <div class="card-img-overlay d-flex">
+                <h3 class="text-light m-5">Over 30,000+ businesses using Paysilo</h3>
+                <button class="d-block justify-content-end m-auto w-25 h-50" id="herobtn">Sign up Now</button>
+            </div>
+        </div>
+        <!-- business management section  -->
+        <div id="text">
+            <div class="container text-center m-5">
+                <h1>Start, Manage and Grow your Business</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores laborum a deleniti quae facilis vero, iure cum consequatur repudiandae? Dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quos natus magni minima repellat officia placeat assumenda laborum amet error!</p>
+            </div>
+            <div class="container m-5">
+                <div class="row">
+                    <div class="col text-end m-4">
+                        <div class="row m-3">
+                            <span><i class="bi bi-credit-card fs-1"></i></span>
+                            <h3>Payment</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit, amet consectetur.</p>
+                        </div>
+                        <div class="row m-3">
+                            <span><i class="bi bi-bar-chart-line fs-1"></i></span>
+                            <h3>Growth</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="row m-3">
+                            <span><i class="bi bi-briefcase fs-1"></i></span>
+                            <h3>Business</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit amet!</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="business.png" alt="" width="100%">
+                    </div>
+                    <div class="col text-start m-4">
+                        <div class="row m-3">
+                            <span><i class="bi bi-person-fill-gear fs-1"></i></span>
+                            <h3>Manage Accounting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="row m-3">
+                            <span><i class="bi bi-amd fs-1"></i></span>
+                            <h3>Resolve Disputes</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="row m-3">
+                            <span><i class="bi bi-globe fs-1"></i></span>
+                            <h3>Global Support</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, alias. Lorem ipsum dolor sit amet, consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- business management section 2 -->
+        <div class="container" id="text">
+            <div class="row">
+                <div class="col-6">
+                    <img src="p1.jpg" alt="" width="100%">
+                </div>
+                <div class="col-6 p-5 mt-5">
+                    <h1>We even give you more solutions to grow your business.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore amet vitae ducimus, atque, beatae possimus maiores dicta blanditiis exercitationem aliquid illo magnam rerum voluptatibus dolore necessitatibus voluptas quae, quod odio.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 p-5 mt-5">
+                    <h1>Business growth & insights with powerfull dashboards.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt laudantium omnis facere earum quibusdam, eveniet quidem eum amet at dignissimos, nemo sed? Iure tenetur, repellat nihil eligendi pariatur officia?</p>
+                </div>
+                <div class="col-6">
+                    <img src="p2.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        <!-- review  -->
+        <div class="container-fluid bg-secondary mb-5" data-bs-ride="carousel">
+            <div class="carousel slide" id="slides">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-level="Slide 1"></button>
+                    <button data-bs-target="#slides" data-bs-slide-to="1" aria-level="Slide 2"></button>
+                    <button data-bs-target="#slides" data-bs-slide-to="2" aria-level="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-secondary p-5">
+                    <div class="carousel-item active">
+                        <div class="card p-5 text-center bg-secondary-subtle">
+                            <span><i class="bi bi-person-square fs-1"></i></span>
+                            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam a soluta voluptas nostrum quo maxime! Aperiam quam beatae ipsum ea."</p>
+                            <h4>-John Mike</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-5 text-center bg-secondary-subtle">
+                            <span><i class="bi bi-person-square fs-1"></i></span>
+                            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam a soluta voluptas nostrum quo maxime! Aperiam quam beatae ipsum ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, repellat"</p>
+                            <h4>-Nick Dev</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-5 text-center bg-secondary-subtle">
+                            <span><i class="bi bi-person-square fs-1"></i></span>
+                            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam a soluta voluptas nostrum quo maxime! Aperiam quam beatae ipsum ea. Lorem ipsum dolor sit amet."</p>
+                            <h4>-Michelle Rose</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#slides" data-bs-slide-to="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#slides" data-bs-slide-to="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
